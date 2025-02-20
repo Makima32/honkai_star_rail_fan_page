@@ -9,6 +9,9 @@ function Header() {
 
         <nav className="navegation_menu"> 
 
+        <div className="father_navegation_menu">
+
+
         <div className="Gachapon_menu"> <a href=""> Menu1 </a></div> 
         <div className="Menu2"><a href=""> </a> Menu2 </div>
         <div className="Logo"> <a href=""> <img src="public\img\Logo.png" alt="" /></a> </div>
@@ -16,7 +19,8 @@ function Header() {
         <div className="Menu4"><a href=""> </a> Menu4 </div>
 
        
-            
+        </div>
+   
         </nav>
 
         </header>

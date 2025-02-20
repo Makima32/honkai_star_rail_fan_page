@@ -12,7 +12,7 @@ function CharacterList() {
         <div className="div_father_character_list">
             <div className="characters_Wheel">
                 <img 
-                    src="public/img/castorice_icon2.png" 
+                    src="public/img/archeron_icon3.png" 
                     alt="Castorice" 
                     className="character_button"
                     onClick={() => setSelectedCharacter(characters[0])} 
@@ -36,7 +36,7 @@ function CharacterList() {
                     
                     <div className="Character_info_div">
                         <h1>{selectedCharacter.name}</h1> 
-                        <h2>Historia</h2>
+                        <h2>{selectedCharacter.alias}</h2>
                         <p>{selectedCharacter.lore}</p> 
                     </div>
 
