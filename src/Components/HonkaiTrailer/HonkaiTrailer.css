@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'HonkaiStyle';
+    src: url('/src/assets/fonts/NombreDeLaFuente.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.trailer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    
+}
+
+.trailer-text {
+    max-width: 40%;
+    color: #692020;
+    text-align: center;
+}
+
+.trailer-text h2 {
+    font-size: 28px;
+    color: #E6C200;
+    
+}
+
+.trailer-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.video-container {
+
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    background: #282749;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #C0C0C0;
+}

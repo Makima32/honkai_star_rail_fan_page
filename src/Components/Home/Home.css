@@ -1,0 +1,23 @@
+.home-image-div {
+
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+
+}
+.home-image-div img {
+
+
+
+ height: 100%;
+ width: 100%;
+
+    
+}
+
+

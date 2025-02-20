@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'HonkaiStyle';
+    src: url('../assets/Fonts/EurostileExtendedBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aplicar la fuente a los elementos */
+#honkai-description-what-is-honkai-div {
+    text-align: center;
+    color: #E6C200;
+    font-size: 1em;
+    font-family: 'HonkaiStyle', sans-serif;
+}
+
+#honkai-description-what-is-honkai-div2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #FFFF;
+    margin-bottom: 40px;
+    font-family: 'HonkaiStyle', sans-serif;
+}
+
+
+#honkai-description-container_of_div {
+    background-color: #1B1D36;
+}
+
+#honkai-description-what-is-honkai-div2 h2 {
+    margin-left: 25em;
+    margin-right: 25em;
+    text-align: justify;
+    font-family: 'HonkaiStyle', sans-serif;
+}
+
+
