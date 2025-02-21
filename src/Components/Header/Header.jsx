@@ -1,32 +1,20 @@
-import "./Header.css"
+import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
-    
-
-    return(
-
-        <header>
-
-        <nav className="navegation_menu"> 
-
+  return (
+    <header>
+      <nav className="navegation_menu"> 
         <div className="father_navegation_menu">
-
-
-        <div className="Gachapon_menu"> <a href=""> Menu1 </a></div> 
-        <div className="Menu2"><a href=""> </a> Menu2 </div>
-        <div className="Logo"> <a href=""> <img src="public\img\Logo.png" alt="" /></a> </div>
-        <div className="Menu3"><a href=""> </a> Menu3 </div>
-        <div className="Menu4"><a href=""> </a> Menu4 </div>
-
-       
+          <div className="Gachapon_menu"> <Link to="/">Menu1</Link> </div> 
+          <div className="Gameplay_menu"> <Link to="/gameplay">Gameplay</Link> </div>
+          <div className="Logo"> <Link to="/"> <img src="public/img/logo_original_honkai.png" alt="Logo" /></Link> </div>
+          <div className="Menu3"> <Link to="/menu3">Menu3</Link> </div>
+          <div className="Menu4"> <Link to="/menu4">Menu4</Link> </div>
         </div>
-   
-        </nav>
-
-        </header>
-    )
-
-
+      </nav>
+    </header>
+  );
 }
 
 export default Header;

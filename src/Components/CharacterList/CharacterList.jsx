@@ -1,4 +1,4 @@
-import { useState } from "react"; // Importamos useState
+import { useState } from "react"; 
 import "./CharacterList.css";
 import characters from "../../services/characters/characters";
 
@@ -24,7 +24,7 @@ function CharacterList() {
                     onClick={() => setSelectedCharacter(characters[1])} 
                 />
                 <img 
-                    src="public/img/sunday_icon.png" 
+                    src="public/img/kafka_icon.png" 
                     alt="Sunday" 
                     className="character_button"
                     onClick={() => setSelectedCharacter(characters[2])} 
