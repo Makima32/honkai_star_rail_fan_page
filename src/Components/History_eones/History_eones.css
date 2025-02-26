@@ -1,0 +1,18 @@
+.History_eones_div_father{
+
+
+
+    height: 100%;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.History_eones_div_text{
+
+
+    background-color: red;
+    height: 50vh;
+    width: 50vw;
+}

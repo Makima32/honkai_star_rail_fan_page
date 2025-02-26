@@ -1,0 +1,53 @@
+.gameplay_lighcone_div_father {
+    height: 90vh;
+    width: 95vw;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgba(27, 29, 54, 1);
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.gameplay_lighcone_div_information {
+    margin-top: 7.5%;
+    height: 100vh;
+    width: 50vw;
+}
+
+.gameplay_lighcone_div_img {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameplay_lighcone_div_img img {
+    width: 90%;
+    height: 60%;
+    align-items: center;
+    border-radius: 40px;
+    align-content: center;
+}
+
+.gameplay_lighcone_div_information_title {
+    font-size: 2.4em;
+    width: 100%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3em;
+    color: #E6C200;
+}
+
+.gameplay_lighcone_div_information_text {
+    color: white;
+    text-align: justify;
+    font-size: 2.8em;
+    margin-left: 2.5em;
+    margin-right: 5em;
+    margin-top: 3em;
+    margin-left: 15%;
+    margin-right: 5%;
+}

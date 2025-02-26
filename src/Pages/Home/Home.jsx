@@ -1,7 +1,7 @@
 import Cards from "../../Components/Cards/Cards";
 import CharacterList from "../../Components/CharacterList/CharacterList";
 import Footer from "../../Components/Footer/Footer";
-import Header from "../../Components/Header/Header";
+import Header_home from "../../Components/Header_home/Header_home";
 import Honkai_description from "../../Components/Honkai_description/Honkai_description";
 import Honkai_trailer from "../../Components/HonkaiTrailer/HonkaiTrailer";
 
@@ -12,8 +12,8 @@ function Home_Page() {
 
         <>
 
-
-            <Header />
+            
+            <Header_home/> 
             <Honkai_description />
             <hr></hr>
             <Cards />

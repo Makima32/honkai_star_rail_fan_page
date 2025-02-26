@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'HonkaiStyle';
+  src: url('../assets/Fonts/EurostileExtendedBlack.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.Character_cards_title_div{
+
+
+  width: 100%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: #E6C200;
+  font-size: 1.6em;
+}
+
+.Character_cards_father_div {
+  padding-top: 5%;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 10%;
+  
+  gap: 5%;
+  background-color: rgba(27, 29, 54, 1);
+  justify-content: center;
+
+}
+
+.Character_card {
+  background-color: rgba(27, 29, 54, 0.5);
+  height: 50vh;
+  width: 15vw;
+  border-radius: 10px;
+  text-align: center;
+  perspective: 1000px;
+
+  /* Borde transparente para iluminarlo en el hover */
+  border: 20px solid transparent;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Character_card:hover {
+  /* Ilumina la carta */
+  border: 2px solid #E6C200;
+  box-shadow: 0px 0px 15px rgba(230, 194, 0, 0.75);
+}
+
+.Character_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.Character_card:hover .Character_card_inner {
+  transform: rotateY(180deg);
+}
+
+.Character_card_front,
+.Character_card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+}
+
+.Character_card_front img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.Character_card_back {
+  background-color: rgba(192, 192, 192, 0.4);
+  color: #E6C200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'HonkaiStyle', sans-serif;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  font-size: 2em;
+}
+
+.Character_card_back h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.Character_card_back p {
+  font-size: 1em;
+  margin: 5px 0;
+}

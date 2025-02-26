@@ -18,7 +18,7 @@ function Footer() {
               
               <div className="footer_social_media">
                 <a href="https://www.instagram.com/honkaistarrail/?hl=es"><img src="public\img\social_media_icons\instagram.svg" alt="Instagram" /></a>
-                <a href=""><img src="public\img\social_media_icons\icons8-x-logo.svg" alt="Twiter/X" /></a>
+                <a href=""><img src="public/img/social_media_icons/x-social-media-white-icon.svg" alt="Twiter/X" /></a>
                 <a href="https://www.youtube.com/@HonkaiStarRail/videos"><img src="public\img\social_media_icons\youtube-svgrepo-com.svg" alt="Youtube" /></a>
 
 
