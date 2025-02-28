@@ -3,6 +3,8 @@ import Gameplay_combat_style from "../../Components/Gameplay_combat_style/Gamepl
 import Gameplay_header from "../../Components/Gameplay_header/gameplay_header"
 import Gameplay_lighcone_artefac from "../../Components/Gameplay_lighcone_artefac/Gameplay_lighcone_artefac"
 import Gameplay_role_character from "../../Components/Gameplay_role_character/Gameplay_role_character"
+import Slider_images from "../../Components/Slider_images/Slider_images"
+
 import "./Gameplay.css"
 
 function Gameplay_Page() {
@@ -11,7 +13,6 @@ function Gameplay_Page() {
 
 
     <>
-    <div className="scroll-container">
 
       <Gameplay_header />
       <br />
@@ -23,8 +24,9 @@ function Gameplay_Page() {
       <Gameplay_lighcone_artefac/>
 
       <Footer/>
-      </div>
       </>
+
+      
   ]
 
 }

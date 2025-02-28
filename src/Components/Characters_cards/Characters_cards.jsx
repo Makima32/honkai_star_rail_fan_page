@@ -14,7 +14,9 @@ function Characters_cards() {
           <div key={index} className="Character_card">
             <div className="Character_card_inner">
 
+
               {/* Frontal de la carta */}
+              
 
               <div className="Character_card_front">
                 <img src={character.image_card} alt={character.name} />

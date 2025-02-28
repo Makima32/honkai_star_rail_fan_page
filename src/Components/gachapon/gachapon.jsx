@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Gachapon.css";
-import characters from "../../services/characters/characters"; // Asegúrate de que la lista de personajes está bien importada.
+import characters from "../../services/characters/characters"; 
 
 function GachaponComponent() {
     const [rolledCharacter, setRolledCharacter] = useState(null);
@@ -34,10 +34,12 @@ function GachaponComponent() {
             </button>
 
             {rolledCharacter && (
+
                 <div className="character-info">
                     <h2>{rolledCharacter.name}</h2>
                     <p>{rolledCharacter.alias}</p>
                 </div>
+                
             )}
         </div>
     );

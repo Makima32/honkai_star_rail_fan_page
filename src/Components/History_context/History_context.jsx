@@ -27,10 +27,13 @@ function History_context() {
 
 <img src="public\img\history_context_img.png" alt="" />
 
-</div>
-</div>
 
+
+</div>
+</div>
 <Stelle_presentation/>
+
+
 
 <History_eones></History_eones>
 </div>
