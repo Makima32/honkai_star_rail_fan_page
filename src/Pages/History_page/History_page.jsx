@@ -1,6 +1,7 @@
-import Header_home from "../../Components/Header_home/Header_home";
 import History_context from "../../Components/History_context/History_context";
 
+import Footer from "../../Components/Footer/Footer"
+import Header_history from "../../Components/Header_History/Header_History";
 
 
 function History_page() {
@@ -10,9 +11,11 @@ function History_page() {
 
         <>
 
+<Header_history> </Header_history>
 
-<Header_home/>
-<History_context></History_context>        
+<History_context></History_context>    
+
+<Footer> </Footer>
         </>
     )
 }

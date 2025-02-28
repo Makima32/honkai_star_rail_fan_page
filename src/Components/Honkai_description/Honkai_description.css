@@ -5,8 +5,9 @@
     font-style: normal;
 }
 
-/* Aplicar la fuente a los elementos */
 #honkai-description-what-is-honkai-div {
+
+    padding-top: 0.5%;
     text-align: center;
     color: #E6C200;
     font-size: 1em;
@@ -38,7 +39,6 @@
     margin-left: 25em;
     margin-right: 25em;
     text-align: justify;
-    font-family: 'HonkaiStyle', sans-serif;
     font-family: 'HonkaiStyle', sans-serif;
 
 }
