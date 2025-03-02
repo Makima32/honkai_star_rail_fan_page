@@ -44,7 +44,6 @@ These resources helped in building this project:
 - 🚀 **[Honkai: Star Rail Official Site](https://hsr.hoyoverse.com/)**
 - 🎮 **[Wuthering Waves Official Site](https://wutheringwaves.kurogames.com/)**
 - 🎥 **[React Slick Tutorial](https://www.youtube.com/watch?v=KL_yIf5uiJo&t=336s)**
-- 📌 **[Slider Tutorial](https://www.youtube.com/watch?v=KL_yIf5uiJo&t=336s)**
 
 ---
 
@@ -68,5 +67,5 @@ Clone the repository and install dependencies:
 
 ## 📩 Contact
 
-📧 Email: [omartorresyuste@.com]  
+📧 Email: [omartorresyuste@gmail.com]  
 
