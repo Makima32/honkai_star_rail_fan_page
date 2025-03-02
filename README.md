@@ -2,7 +2,6 @@
 
 Welcome to **Honkai Star Rail Fan Page**, a visually immersive website dedicated to exploring the worlds, characters, and mechanics of *Honkai: Star Rail*. This project was built with **React** and **Vite**, featuring dynamic components and responsive design.
 
-![Honkai Star Rail](https://your-image-url-here.com/banner.png)
 
 ---
 
@@ -38,21 +37,21 @@ This project makes use of several external libraries:
 
 ---
 
-## 📚 Tutorials & References
+## 📚 References & Tutorials
 
-Here are some useful resources that helped in building this project:
+These resources helped in building this project:
 
-- 🎨 **[Best README Template](https://github.com/othneildrew/Best-README-Template)** – Used as a reference for this README.
-- 🚀 **[Honkai: Star Rail Official Site](https://hsr.hoyoverse.com/)** – For game-related inspiration.
-- 📘 **[React Documentation](https://react.dev/)** – Official documentation for React.
+- 🚀 **[Honkai: Star Rail Official Site](https://hsr.hoyoverse.com/)**
+- 🎮 **[Wuthering Waves Official Site](https://wutheringwaves.kurogames.com/)**
+- 🎥 **[React Slick Tutorial](https://www.youtube.com/watch?v=KL_yIf5uiJo&t=336s)**
+- 📌 **[Slider Tutorial](https://www.youtube.com/watch?v=KL_yIf5uiJo&t=336s)**
 
 ---
 
 ## 📸 Screenshots
 
-![Homepage Preview](https://your-image-url-here.com/homepage.png)
+![Homepage Preview](https://www.dropbox.com/scl/fi/8e7jjpbqk5usobzohh7k3/Screenshot_1.png?rlkey=pbhixm0y6ncwui4rmdeu0b9ow&st=u06qm19a&raw=1)
 
-_Add more screenshots here to showcase different sections of the website._
 
 ---
 
@@ -65,13 +64,9 @@ Clone the repository and install dependencies:
   cd honkai-star-rail-fanpage
   npm install
   npm run dev
-```
-
----
 
 
 ## 📩 Contact
 
-📧 Email: [your.email@example.com](mailto:your.email@example.com)  
-🐦 Twitter: [@yourusername](https://twitter.com/yourusername)  
-🎮 Discord: *YourDiscordUsername#1234*
+📧 Email: [omartorresyuste@.com]  
+
