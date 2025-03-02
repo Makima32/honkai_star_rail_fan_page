@@ -18,14 +18,12 @@
     background-repeat: no-repeat;
 }
 
-/* 📌 Enlaces */
 .navegation_menu_character a {
     color: white;
     text-decoration: none;
     font-family: 'HonkaiStyle', sans-serif;
 }
 
-/* 📌 Menú Principal */
 .father_navegation_menu_character {
     position: relative;
     top: 5%;
@@ -39,23 +37,19 @@
     font-size: 20px;
 }
 
-/* 📌 Elementos del Menú */
 .navegation_menu_character div {
     flex: 1;
     text-align: center;
     font-size: 1.5em;
 }
 
-/* 📌 Logo */
 .Logo_character img {
     position: relative;
     width: 45%;
     height: 50%;
 }
 
-/* 📌 📱 Responsive */
 
-/* 🔹 Tablets (768px - 1023px) */
 @media (max-width: 1023px) and (min-width: 768px) {
     .navegation_menu_character {
         height: 100vh;
@@ -80,7 +74,6 @@
     }
 }
 
-/* 🔹 Móviles (<768px) */
 @media (max-width: 767px) {
     .navegation_menu_character {
         height: 100vh;
@@ -106,7 +99,6 @@
         height: 40%;
     }
 
-    /* 🔹 Adaptación de los botones del menú en móviles */
     .Gachapon_menu_character,
     .Gameplay_menu_character,
     .Character_menu_character,

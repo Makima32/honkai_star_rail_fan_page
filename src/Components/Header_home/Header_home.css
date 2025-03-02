@@ -69,7 +69,6 @@
 
 
 
-/* 📌 Pantallas medianas (Tablets) */
 
 @media (max-width: 1023px) and (min-width: 768px) {
     .navegation_menu {
@@ -96,7 +95,6 @@
     }
 }
 
-/* 📌 Pantallas pequeñas (Móviles) */
 @media (max-width: 767px) {
     .navegation_menu {
 

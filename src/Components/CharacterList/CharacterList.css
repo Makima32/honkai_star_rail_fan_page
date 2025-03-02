@@ -125,7 +125,6 @@ body {
 }
 
 
-/* 📌 Pantallas medianas (Tablets) */
 @media (max-width: 1023px) and (min-width: 768px) {
     
     .div_father_character_list{
@@ -135,7 +134,6 @@ body {
     }
 }
 
-/* 📌 Pantallas pequeñas (Móviles) */
 @media (max-width: 767px) {
   
     .div_father_character_list{

@@ -9,14 +9,12 @@
     margin: 0 auto;
 }
 
-/* 📌 Información del texto */
 .gameplay_combat_style_div_information {
     margin-top: 7.5%;
     height: 100vh;
     width: 50vw;
 }
 
-/* 📌 Imagen */
 .gameplay_combat_style_div_img {
     height: 100%;
     width: 50vw;
@@ -32,7 +30,6 @@
     align-items: center;
 }
 
-/* 📌 Título */
 .gamepaly_combat_style_div_information_title {
     font-size: 2.4em;
     width: 100%;
@@ -42,7 +39,6 @@
     color: #E6C200;
 }
 
-/* 📌 Texto */
 .gameplay_combat_style_div_information_text {
     color: white;
     text-align: justify;
