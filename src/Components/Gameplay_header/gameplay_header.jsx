@@ -7,7 +7,7 @@ function Gameplay_Header() {
       <nav className="navegation_menu_gameplay"> 
         <div className="father_navegation_menu_gameplay">
           <div className="gachapon_menu_gameplay"> 
-            <Link to="/gachapon">Gachapon</Link> 
+            <Link to="/gachapon">NotFinished</Link> 
           </div> 
           <div className="gameplay_menu"> 
             <Link to="/gameplay">Gameplay</Link> 
