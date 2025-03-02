@@ -10,7 +10,7 @@ function Header_home() {
           <div className="Gameplay_menu"> <Link to="/gameplay">Gameplay</Link> </div>
           <div className="Logo"> <Link to="/"> <img src="public/img/logo_original_honkai.png" alt="Logo" /></Link> </div>
           <div className="Character_menu"> <Link to="/characters">Personaje</Link> </div>
-          <div className="Menu4"> <Link to="/history">Historia</Link> </div>
+          <div className="history_menu"> <Link to="/history">Historia</Link> </div>
         </div>
       </nav>
     </header>

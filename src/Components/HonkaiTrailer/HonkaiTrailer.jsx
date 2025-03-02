@@ -11,13 +11,16 @@ function Honkai_trailer() {
         <div className="trailer-section">
     <div className="trailer-text">
         <h2>Descubre la Aventura de Honkai: Star Rail</h2>
-        <p>
+        <p id="trailer_text_p">
             Embárcate en un viaje intergaláctico a bordo del Expreso Astral.  
             Enfréntate a desafíos épicos, explora planetas misteriosos y forma tu equipo definitivo.
         </p>
         
-        <Button1></Button1>
+        <div className="div_button">
+
         
+        <Button1 id="button_dowload"></Button1>
+        </div>
     </div>
 
     <div className="video-container">

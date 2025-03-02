@@ -1,11 +1,13 @@
 .History_context_father_div {
     height: fit-content;
-    /* background-image: url('https://www.dropbox.com/scl/fi/u62yvtt4doeknjm5k7l0u/gifFondo_historia-ezgif.com-optimize.gif?rlkey=zyjj7rl8wk8rey3wlrnjv34f1&st=bry3ggtz&raw=1');  */
+    background-image: url('https://www.dropbox.com/scl/fi/u62yvtt4doeknjm5k7l0u/gifFondo_historia-ezgif.com-optimize.gif?rlkey=zyjj7rl8wk8rey3wlrnjv34f1&st=bry3ggtz&raw=1'); 
 
     background-color: antiquewhite;
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+
+    padding-bottom: 5%;
     
     
 }
@@ -25,6 +27,7 @@
     width: 100%;
     text-align: center;
 
+    padding-top: 2%;
     font-size: 2.5em;
 
 }
@@ -39,28 +42,41 @@
     width: 50%;
     height: 50%;
     display: flex;
-
+    padding-left: 3%;
     text-align: justify;
     font-size: 3em;
     align-items: center;
+    background-color: rgba(192, 192, 192, 0.4);
+
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 30px;
+    margin-left: 1%;
     
 }
 
+.History_context_text_div p{
 
+    color: rgb(252, 251, 251);
+
+
+}
 .History_context_text_img_div{
 
     width: 50%;
-    height: 50%;
+    height: 100%;
     display: flex;
     
     justify-content: center;
     align-items: center;
 
+    margin-bottom: 5%;
+
 }
 
 .History_context_text_img_div img{
 
-    height: 85%;
+    height: 100%;
     width: 80%;
     border-radius: 6%;
 }
@@ -70,3 +86,44 @@
 
 
 
+@media (max-width: 1023px) and (min-width: 768px) {
+
+    .History_context_text_img_div{
+
+        width: 100vw;
+    }
+
+    .History_context_father_img_text_div{
+
+
+        width: 100%;
+    }
+
+    .History_context_text_div{
+
+        width: 100%;
+    }
+
+    .History_context_text_img_div{
+    width: 100%;
+
+    }
+
+    .History_context_text_img_div{
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+    }
+}
+    @media (max-width: 767px) {
+        .History_context_text_img_div{
+            width: 0px;
+            height: 0px;
+            visibility: hidden;
+        }
+        
+        .History_context_text_div{
+
+            width: 100%;
+        }
+    }

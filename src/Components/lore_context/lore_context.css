@@ -1,0 +1,70 @@
+
+
+.History_context_father_img_text_div{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;    
+    width: 100%;
+    margin-top: 5%;
+ 
+}
+
+.History_context_tittle_div{
+
+    width: 100%;
+    text-align: center;
+
+    padding-top: 2%;
+    font-size: 2.5em;
+
+}
+
+.History_context_tittle_div h1{
+    color: #E6C200;
+
+}
+
+.History_context_text_div{
+
+    width: 50%;
+    height: 50%;
+    display: flex;
+    padding-left: 3%;
+    text-align: justify;
+    font-size: 3em;
+    align-items: center;
+    background-color: rgba(192, 192, 192, 0.4);
+
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 30px;
+    margin-left: 1%;
+    
+}
+
+.History_context_text_div p{
+
+    color: rgb(252, 251, 251);
+
+
+}
+.History_context_text_img_div{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5%;
+
+}
+
+.History_context_text_img_div img{
+
+    height: 100%;
+    width: 80%;
+    border-radius: 6%;
+}
+

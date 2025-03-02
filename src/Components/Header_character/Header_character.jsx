@@ -21,7 +21,7 @@ function Header_character() {
             <Link to="/characters">Personajes</Link> 
           </div>
           <div className="Menu4_character"> 
-            <Link to="/menu4">Menú 4</Link> 
+            <Link to="/history">Historia</Link> 
           </div>
         </div>
       </nav>

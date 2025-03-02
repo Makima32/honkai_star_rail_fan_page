@@ -1,16 +1,13 @@
-import History_eones from "../History_eones/History_eones";
-import Stelle_presentation from "../Stelle_presentation/Stelle_presentation";
+import "./lore_context.css"
 
-import "./History_context.css"
+function lore_context() {
 
-function History_context() {
-    
-    return(
-<>
 
-<div className="History_context_father_div">
+  return (
 
-<div className="History_context_tittle_div">
+
+    <>
+      <div className="History_context_tittle_div">
 
 <h1>El Inicio del Viaje</h1>
 
@@ -32,16 +29,8 @@ function History_context() {
 
 </div>
 </div>
-<Stelle_presentation/>
-
-
-
-<History_eones></History_eones>
-</div>
-
-
-</>
-)
+    </>
+  )
 }
 
-export default History_context;
+export default lore_context;

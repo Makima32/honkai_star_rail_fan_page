@@ -123,3 +123,24 @@ body {
     flex-wrap: wrap;
     word-break: break-word;
 }
+
+
+/* 📌 Pantallas medianas (Tablets) */
+@media (max-width: 1023px) and (min-width: 768px) {
+    
+    .div_father_character_list{
+
+        height: 0px;
+        visibility: hidden;
+    }
+}
+
+/* 📌 Pantallas pequeñas (Móviles) */
+@media (max-width: 767px) {
+  
+    .div_father_character_list{
+        height: 0px;
+
+        visibility: hidden;
+    }
+}

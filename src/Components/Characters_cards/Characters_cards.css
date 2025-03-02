@@ -5,10 +5,7 @@
   font-style: normal;
 }
 
-
-.Character_cards_title_div{
-
-
+.Character_cards_title_div {
   width: 100%;
   margin-bottom: 3%;
   text-align: center;
@@ -24,11 +21,9 @@
   flex-wrap: wrap;
   flex-direction: row;
   padding-bottom: 10%;
-  
   gap: 5%;
   background-color: rgba(27, 29, 54, 1);
   justify-content: center;
-
 }
 
 .Character_card {
@@ -38,14 +33,11 @@
   border-radius: 10px;
   text-align: center;
   perspective: 1000px;
-
-  /* Borde transparente para iluminarlo en el hover */
   border: 20px solid transparent;
   transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 
 .Character_card:hover {
-  /* Ilumina la carta */
   border: 2px solid #E6C200;
   box-shadow: 0px 0px 15px rgba(230, 194, 0, 0.75);
 }
@@ -98,4 +90,44 @@
 .Character_card_back p {
   font-size: 1em;
   margin: 5px 0;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .Character_cards_father_div {
+    flex-direction: row;
+    gap: 3%;
+  }
+
+  .Character_card {
+    width: 30vw;
+    height: 60vh;
+  }
+
+  .Character_card_back {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 767px) {
+  .Character_cards_father_div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Character_card {
+    width: 80vw;
+    height: 85vh;
+  }
+
+  .Character_card_back {
+    font-size: 3.3em;
+  }
+
+  .Character_card_back h3 {
+    font-size: 1.2em;
+  }
+
+  .Character_card_back p {
+    font-size: 0.9em;
+  }
 }

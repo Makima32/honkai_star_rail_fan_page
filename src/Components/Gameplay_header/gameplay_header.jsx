@@ -18,10 +18,10 @@ function Gameplay_Header() {
             </Link> 
           </div>
           <div className="menu3_gameplay"> 
-            <Link to="/menu3">Menú 3</Link> 
+            <Link to="/characters">Personajes</Link> 
           </div>
           <div className="menu4_gameplay"> 
-            <Link to="/menu4">Menú 4</Link> 
+            <Link to="/history">Historia</Link> 
           </div>
         </div>
       </nav>

@@ -12,6 +12,7 @@ function History_page() {
         <>
 
 <Header_history> </Header_history>
+<br/>
 
 <History_context></History_context>    
 
