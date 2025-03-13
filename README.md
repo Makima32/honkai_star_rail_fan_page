@@ -20,7 +20,7 @@ Welcome to **Honkai Star Rail Fan Page**, a visually immersive website dedicated
 | Technology | Purpose |
 |------------|---------|
 | ⚛️ React | Frontend framework |
-| 🎨 CSS & Tailwind | Styling & animations |
+| 🎨 CSS  | Styling & animations |
 | ⚡ Vite | Fast development environment |
 | 🎠 Slick Carousel | Dynamic image sliders |
 | 🌍 React Router | Navigation management |
