@@ -27,7 +27,10 @@ function Home_Page() {
             img1="public\img\slider_image1.webp"
             img2="public\img\slider_image2.png"
             img3="public\img\slider_image3.png"
+            
 />
+
+
             <Footer></Footer>
         </>
     ]
