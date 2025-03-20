@@ -10,14 +10,14 @@
 }
 
 .gameplay_lighcone_div_information {
-    margin-top: 7.5%;
+    margin-top: 3rem;
     height: 100vh;
     width: 50vw;
 }
 
 .gameplay_lighcone_div_img {
     height: 100%;
-    width: 50vw;
+    width: 60vw;
     display: flex;
     justify-content: center;
     align-items: center;
