@@ -6,36 +6,26 @@ import Honkai_description from "../../Components/Honkai_description/Honkai_descr
 import Honkai_trailer from "../../Components/HonkaiTrailer/HonkaiTrailer";
 import Slider_images from "../../Components/Slider_images/Slider_images";
 
-function Home_Page() {
+function updateOnclickView() {
 
-    return [
+    return (
 
 
         <>
 
-            
-            <Header_home/> 
-            <Honkai_description />
-            <hr></hr>
-            <Cards />
-            <hr></hr>
-            <Honkai_trailer />
-            <hr></hr>
-            <CharacterList></CharacterList>
-           
+          
             <Slider_images 
             img1="public\img\slider_image1.webp"
             img2="public\img\slider_image2.png"
             img3="public\img\slider_image3.png"
             
 />
+
         
             <Footer></Footer>
-
-            
         </>
-    ]
+    )
 
 }
 
-export default Home_Page
+export default updateOnclickView

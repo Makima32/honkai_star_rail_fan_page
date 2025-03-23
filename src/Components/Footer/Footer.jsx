@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./Footer.css";
 
 function Footer() {
@@ -7,8 +9,8 @@ function Footer() {
                 <p>&copy; {new Date().getFullYear()} Honkai Star Rail Fan Page. Todos los derechos reservados.</p>
                 <nav>
                     <ul className="footer-links">
-                        <li><a href="#">Términos y condiciones</a></li>
-                        <li><a href="#">Política de privacidad</a></li>
+                    <li><Link to="/terms">Términos y condiciones</Link></li>
+                    <li><Link to="/privacy">Politicas de privacidad</Link></li>
                         <li><a href="#">Contacto</a></li>
                          <li><img src="" alt="" /></li>
                     </ul>
@@ -20,7 +22,9 @@ function Footer() {
                 <a href="https://www.instagram.com/honkaistarrail/?hl=es"><img src="public\img\social_media_icons\instagram.svg" alt="Instagram" /></a>
                 <a href=""><img src="public/img/social_media_icons/x-social-media-white-icon.svg" alt="Twiter/X" /></a>
                 <a href="https://www.youtube.com/@HonkaiStarRail/videos"><img src="public\img\social_media_icons\youtube-svgrepo-com.svg" alt="Youtube" /></a>
-
+                <Link to="/updates">
+            <img src="public\img\rss.png" alt="Updates" />
+</Link>
 
               </div>
             </div>

@@ -1,0 +1,87 @@
+.version-detail-div-father{
+
+
+ 
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: white;
+    border-radius: 50px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a4ec752-7879-466f-8c0c-622dce8c4c37/dfvq4bl-ff342528-82cc-48cd-8ff0-144f0933deab.png/v1/fill/w_1192,h_670,q_70,strp/star_rail_bg_by_kaerralind_dfvq4bl-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvM2E0ZWM3NTItNzg3OS00NjZmLThjMGMtNjIyZGNlOGM0YzM3XC9kZnZxNGJsLWZmMzQyNTI4LTgyY2MtNDhjZC04ZmYwLTE0NGYwOTMzZGVhYi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0muRBGQRPIqOHNm66zFp4QlDL8VdnuAqwhxpu2-Lk7E);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.version-detail-name-update{
+
+    margin-top: 5rem;
+    padding-top: 0.6rem;
+    font-size: 3rem;
+    text-align: center;
+}
+    
+      
+.version-detail-version{
+    text-align: center;
+
+    font-size: 2rem;
+    margin-bottom: 5vh;
+}
+
+.version-detail-image{
+
+    display: flex;
+
+    justify-content: center;
+}
+     
+.version-detail-image img{
+
+    width: 70%;
+    height: 60vh;
+    border-radius: 20px;
+
+}
+
+      
+.version-detail-description{
+
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 5vh;
+    font-size: 3rem;
+    text-align: justify;
+}
+.version-detail-div-date{
+
+    font-size: 2rem;
+    text-align: center;
+}
+
+.version-detail-back-button{
+
+display: flex;
+justify-content: center;
+}
+
+.version-detail-back-button{
+
+
+    font-size: 3rem;
+    margin-top: 4rem;
+    border-radius: 30px;
+    background-color: rgba(44, 11, 74, 0.6)    ;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5rem;
+
+    border: 2px solid #4a4646;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.version-detail-back-button button:hover{
+
+    transform: 1px;
+}

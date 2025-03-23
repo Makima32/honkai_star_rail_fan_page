@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'HonkaiStyle';
+    src: url('../assets/Fonts/EurostileExtendedBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  nav {
+    background-color: #1B1D36; 
+    color: white;
+    font-weight: bold;
+    font-family: 'HonkaiStyle', sans-serif;
+    width: 100%;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'HonkaiStyle', sans-serif;
+  }
+  
+  .header-standar-div-father {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 2.1rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .header-standar-logo{
+
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .header-standar-logo img {
+
+    
+    width: 150px;
+    height: auto;
+  }
+  
+  .header-standar-gachapon,
+  .header-standar-gameplay,
+  .header-standar-character,
+  .header-standar-history {
+    padding: 20px;
+  }
+  
+  @media (max-width: 1023px) and (min-width: 768px) {
+    .header-standar-div-father {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .header-standar-logo img {
+      width: 100px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .header-standar-div-father {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      padding: 20px;
+      font-size: 1.2em;
+    }
+  
+    nav a {
+      font-size: 1em;
+      padding: 8px;
+    }
+  
+    .header-standar-logo img {
+      width: 50%;
+    }
+  
+    .header-standar-gachapon,
+    .header-standar-gameplay,
+    .header-standar-character,
+    .header-standar-history {
+      width: 100%;
+      text-align: center;
+      background-color: rgba(192, 192, 192, 0.1);
+      padding: 10px 0;
+    }
+  }
+  
