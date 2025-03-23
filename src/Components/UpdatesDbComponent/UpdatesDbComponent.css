@@ -76,6 +76,12 @@
     justify-content: center;
 }
 
+.updates-dbcomponent-div-input-textbox button{
+
+    width: 5%;
+}
+
+
 .updates-dbcomponent-div-name-update {
 height: 10%;
 font-size: 2.7rem;
@@ -118,7 +124,11 @@ font-size: 2.7rem;
 
 }
 
-/* ======================= TABLET (768px - 1023px) ======================= */
+.updates-dbcomponent-input-text-to-filter-updates{
+
+    font-size: 2.5rem;
+}
+
 @media (max-width: 1023px) and (min-width: 768px) {
     .updates-dbcomponent-title {
       font-size: 3.2rem;
@@ -156,7 +166,6 @@ font-size: 2.7rem;
     }
   }
   
-  /* ======================= MÓVIL (hasta 767px) ======================= */
   @media (max-width: 767px) {
     .updates-dbcomponent-title {
       font-size: 2.5rem;
