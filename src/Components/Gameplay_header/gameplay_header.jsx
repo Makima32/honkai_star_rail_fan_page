@@ -6,9 +6,8 @@ function Gameplay_Header() {
     <header>
       <nav className="navegation_menu_gameplay"> 
         <div className="father_navegation_menu_gameplay">
-          <div className="gachapon_menu_gameplay"> 
-            <Link to="/gachapon">NotFinished</Link> 
-          </div> 
+        <div className="Gachapon_menu"> <Link to="/updates">Actualizaciones</Link> </div> 
+
           <div className="gameplay_menu"> 
             <Link to="/gameplay">Gameplay</Link> 
           </div>

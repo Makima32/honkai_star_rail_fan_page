@@ -9,6 +9,9 @@ import VersionDetail from "./Components/VersionDetail/VersionDetail";
 import UpdatesDbComponent_Page from "./Pages/UpdatesDbComponent_Page/UpdatesDbComponent_Page";
 import Terms_page from "./Pages/Terms_page/Terms_page";
 import Privacy_page from "./Pages/Privacy_page/Privacy_page";
+import UpdatesDbComponentAdminMode from "./Components/UpdatesDbComponentAdminMode/UpdatesDbComponentAdminMode";
+import UpdateFormPage from "./Pages/Update_form_page/UpdateFormPage";
+import UpdateForm from "./Components/Update_form/UpdateForm";
 
 
 function App() {
@@ -25,7 +28,14 @@ function App() {
         <Route path="/history" element={<History_page/>} />
 
         <Route path="/updates" element={<UpdatesDbComponent_Page />} />
+
+        <Route path="/updatesAdmin" element={<UpdatesDbComponentAdminMode />} />
+
         <Route path="/version/:versionId" element={<VersionDetail/>} />
+
+        <Route path="/updateFormPage" element={<UpdateForm />} />
+        <Route path="/updateFormPage/:id" element={<UpdateForm />} />
+
         <Route path="/terms" element={<Terms_page />} />
         <Route path="/privacy" element={<Privacy_page />} />
 

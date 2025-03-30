@@ -15,7 +15,7 @@
 
 
     text-align: center;
-
+    
     font-size: 4.5rem;
 
 
@@ -47,8 +47,8 @@
     margin-left: 16%;
     width: 65vw;
 
-    height: fit-content;
-    font-size: 2.2rem;
+    height: 50vh;
+    font-size: 2rem;
     border: 2px solid #4a4646;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -83,14 +83,24 @@
 
 
 .updates-dbcomponent-div-name-update {
-height: 10%;
-font-size: 2.7rem;
+
+margin-left: 2rem;
+margin-right: 2rem;
+
+height: fit-content;
+margin-bottom: 1rem;
+margin-top: 4em;
+padding-top: 4rem;
+
+font-size: 1.7rem;
 
 }
 
 .updates-dbcomponent-div-update-version {
 
-    height: 5%;
+  
+  margin-bottom: 1.3rem;
+
 }
 
 .updates-dbcomponent-div-update-img {
@@ -99,10 +109,25 @@ font-size: 2.7rem;
     align-content: center;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    
+    margin-left: 1.5rem;
+
+    width: 100%;
+    height: auto;
+}
+.updates-dbcomponent-div-update-img img {
+
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
 
-.updates-dbcomponent-img {}
+.updates-dbcomponent-img{
+
+  width: 100%;
+  
+}
+
 
 .updates-dbcomponent-div-father{
 
@@ -115,12 +140,14 @@ font-size: 2.7rem;
 
     margin-left: 4rem;
     margin-right: 4rem;
-    height: 37.5%;
+    height: fit-content;
+
+    margin-bottom: 3rem;
 }
 
 .updates-dbcomponent-div-date-version {
 
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 
 }
 
@@ -128,6 +155,29 @@ font-size: 2.7rem;
 
     font-size: 2.5rem;
 }
+
+
+.admin-mode-div{
+
+  position: sticky;
+  top: 0;
+
+
+  text-decoration: none !important;
+
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+
+
+}
+
+.admin-mode-button a {
+
+  text-decoration: none !important;
+
+}
+
 
 @media (max-width: 1023px) and (min-width: 768px) {
     .updates-dbcomponent-title {

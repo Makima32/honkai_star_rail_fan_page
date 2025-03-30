@@ -10,7 +10,6 @@
 }
 
 .gameplay_lighcone_div_information {
-    margin-top: 3rem;
     height: 100vh;
     width: 50vw;
 }
@@ -32,7 +31,7 @@
 }
 
 .gameplay_lighcone_div_information_title {
-    font-size: 2.4em;
+    font-size: 2.4rem;
     width: 100%;
     text-align: center;
     margin-left: 5%;
@@ -44,10 +43,10 @@
 .gameplay_lighcone_div_information_text {
     color: white;
     text-align: justify;
-    font-size: 2.8em;
+    font-size: 2.3rem;
     margin-left: 2.5em;
     margin-right: 5em;
-    margin-top: 3em;
+    margin-top: 1.5rem;
     margin-left: 15%;
     margin-right: 5%;
 }
@@ -73,7 +72,7 @@
     .gameplay_lighcone_div_information_title {
         margin: 20px auto;
         width: 100%;
-        font-size: 2.4em;
+        font-size: 2rem;
     }
     
 
@@ -93,7 +92,7 @@
     }
 
     .gameplay_lighcone_div_img img {
-        width: 60vw;
+        width: 75vw;
         height: auto;
         border-radius: 20px;
     }
@@ -102,21 +101,28 @@
 @media (max-width: 1023px) and (min-width: 768px) {
     .gameplay_lighcone_div_father {
         flex-direction: row;
-        height: 60vh;
-        width: 85vw;
+        height: 100vh;
+        width: 95vw;
         padding: 20px;
 
-    }
 
+    }
+ .gameplay_lighcone_div_information_title {
+        margin: 20px auto;
+        width: 80%;
+        font-size: 1.8rem;
+    }
+    
     .gameplay_lighcone_div_information {
-        width: 100%;
+        width: 75%;
         text-align: center;
         margin-top: 0;
     }
 
+    
+
     .gamepaly_lighcone_div_information_title {
         font-size: 2em;
-        
         padding-top: 1%;
         margin: 30px auto;
     }

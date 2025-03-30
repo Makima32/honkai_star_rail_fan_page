@@ -1,0 +1,327 @@
+.updates-dbcomponent-img {
+
+  width: 85%;
+  height: 65%;
+  border-radius: 15px;
+
+  border: 2px solid #dfd4d4;
+
+  box-shadow: 0 4px 8px rgb(227, 222, 222);
+
+}
+
+
+.updates-dbcomponent-title {
+
+
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+  font-size: 3.5rem;
+
+
+
+}
+
+.updates-dbcomponent-link-div {
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+
+  cursor: default;
+
+}
+
+.updates-dbcomponent-div {
+
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 8px;
+  margin-top: 3.5%;
+  margin-bottom: 2%;
+  color: white;
+  background: linear-gradient(to bottom, #0050A3, #5a248c, #1B1D36);
+  text-align: center;
+  text-decoration: none;
+  margin-left: 16%;
+  width: 65vw;
+
+  height: 50vh;
+  font-size: 2rem;
+  border: 2px solid #4a4646;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.updates-dbcomponent-div:hover {
+
+  transform: scale(1.025);
+
+}
+
+.updates-dbcomponent-input-text-to-filter-updates {
+
+  height: 5.5rem;
+  width: 50rem;
+
+}
+
+.updates-dbcomponent-div-input-textbox {
+
+
+  display: flex;
+  justify-content: center;
+}
+
+.updates-dbcomponent-div-input-textbox button {
+
+  width: 5%;
+}
+
+
+.updates-dbcomponent-div-name-update {
+
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 4rem;
+  padding-top: 4rem;
+  height: fit-content;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+
+}
+
+.updates-dbcomponent-div-update-version {
+
+
+  margin-bottom: 1.3rem;
+
+}
+
+.updates-dbcomponent-div-update-img {
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 1.5rem;
+
+  width: 100%;
+  height: auto;
+}
+
+.updates-dbcomponent-div-update-img img {
+
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.updates-dbcomponent-img {
+
+  width: 100%;
+
+}
+
+
+.updates-dbcomponent-div-father {
+
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+.updates-dbcomponent-div-short-desciption {
+
+  margin-left: 4rem;
+  margin-right: 4rem;
+  height: fit-content;
+
+  margin-bottom: 3rem;
+}
+
+.updates-dbcomponent-div-date-version {
+
+  font-size: 1.5rem;
+
+}
+
+.updates-dbcomponent-input-text-to-filter-updates {
+
+  font-size: 2.5rem;
+}
+
+
+.user-mode-div {
+
+
+  position: sticky;
+  top: 0;
+
+
+  text-decoration: none !important;
+
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+}
+
+.user-mode-button a {
+
+  text-decoration: none !important;
+
+}
+
+
+.updates-dbcomponent-div-crud {
+
+  display: flex;
+
+
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 30%;
+}
+
+.updates-dbcomponent-div-crud img {
+
+  width: 5rem;
+  height: auto;
+  margin-right: 1.5rem;
+
+}
+
+
+#modify-icon:hover {
+
+  transform: scale(1.2);
+
+
+}
+
+
+#trash-icon:hover {
+
+  transform: scale(1.2);
+
+}
+
+.add-new-updates-div {
+
+  text-align: center;
+
+}
+
+.add-new-updates-div img {
+
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.add-new-updates-div img:hover {
+
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.add-new-updates-div h2 {
+
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .updates-dbcomponent-title {
+    font-size: 3.2rem;
+  }
+
+  .updates-dbcomponent-div {
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.7rem;
+  }
+
+  .updates-dbcomponent-img {
+    width: 90%;
+    height: auto;
+  }
+
+  .updates-dbcomponent-input-text-to-filter-updates {
+    width: 35rem;
+    height: 4rem;
+  }
+
+  .updates-dbcomponent-div-short-desciption {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .updates-dbcomponent-div-date-version {
+    font-size: 1.5rem;
+  }
+
+  .updates-dbcomponent-div-name-update {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .updates-dbcomponent-title {
+    font-size: 2.5rem;
+  }
+
+  .updates-dbcomponent-div {
+    flex-direction: column;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding: 6px;
+  }
+
+  .updates-dbcomponent-img {
+    width: 70%;
+    margin-right: 5%;
+    margin-top: 5%;
+    height: auto;
+  }
+
+  .updates-dbcomponent-input-text-to-filter-updates {
+    width: 90%;
+    height: 3.5rem;
+  }
+
+  .updates-dbcomponent-div-short-desciption {
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .updates-dbcomponent-div-date-version {
+    font-size: 1.2rem;
+  }
+
+  .updates-dbcomponent-div-name-update {
+    font-size: 1.7rem;
+  }
+
+  .updates-dbcomponent-div-input-textbox {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}

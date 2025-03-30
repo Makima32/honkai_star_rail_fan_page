@@ -22,9 +22,9 @@ function Footer() {
                 <a href="https://www.instagram.com/honkaistarrail/?hl=es"><img src="public\img\social_media_icons\instagram.svg" alt="Instagram" /></a>
                 <a href=""><img src="public/img/social_media_icons/x-social-media-white-icon.svg" alt="Twiter/X" /></a>
                 <a href="https://www.youtube.com/@HonkaiStarRail/videos"><img src="public\img\social_media_icons\youtube-svgrepo-com.svg" alt="Youtube" /></a>
-                <Link to="/updates">
-            <img src="public\img\rss.png" alt="Updates" />
-</Link>
+                <a href="src\services\Rss\newcharacters.xml" target="_blank">
+                <img src="public\img\rss.png" alt="Updates" />
+                </a>
 
               </div>
             </div>

@@ -46,10 +46,11 @@
 .Slider_div_text p{
 
 
+    margin-top: 2rem;
     margin-left: 5%;
     margin-right: 5%;
     color: white;
-    font-size: 3em;
+    font-size: 2.4em;
     text-align: justify;
 
 }
@@ -73,15 +74,14 @@
 
     width: 100%;
     height: 100%;
-
+    
     margin-top: 100px;
 }
 
 .Slider_div_father img{
 
 width: 80%;
-margin-top: 500%;
-margin-left: 6%;
+margin-left: 8%;
 height: 100%;
 }
 

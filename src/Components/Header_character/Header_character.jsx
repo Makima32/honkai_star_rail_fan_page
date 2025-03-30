@@ -6,9 +6,8 @@ function Header_character() {
     <header>
       <nav className="navegation_menu_character"> 
         <div className="father_navegation_menu_character">
-          <div className="Gachapon_menu_character"> 
-            <Link to="/gachapon">NotFinished</Link> 
-          </div> 
+        <div className="Gachapon_menu"> <Link to="/updates">Actualizaciones</Link> </div> 
+
           <div className="Gameplay_menu_character"> 
             <Link to="/gameplay">Gameplay</Link> 
           </div>

@@ -6,8 +6,8 @@ function Header_standar() {
     <header>
       <nav className=""> 
         <div className="header-standar-div-father">
-          <div className="header-standar-gachapon"> <Link to="/gachapon">NotFinished</Link> </div> 
-          <div className="header-standar-gameplay"> <Link to="/gameplay">Gameplay</Link> </div>
+        <div className="Gachapon_menu"> <Link to="/updates">Actualizaciones</Link> </div> 
+        <div className="header-standar-gameplay"> <Link to="/gameplay">Gameplay</Link> </div>
           <div className="header-standar-logo"> <Link to="/"> <img src="public/img/logo_original_honkai.png" alt="Logo" /></Link> </div>
           <div className="header-standar-character"> <Link to="/characters">Personaje</Link> </div>
           <div className="header-standar-history"> <Link to="/history">Historia</Link> </div>

@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "firebase": "^11.5.0",
+    "modern-normalize": "^3.0.1",
+    "normalize.css": "^8.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
