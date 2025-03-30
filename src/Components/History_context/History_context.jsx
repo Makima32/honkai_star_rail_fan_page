@@ -26,7 +26,7 @@ function History_context() {
 
 <div className="History_context_text_img_div">
 
-<img src="public\img\history_context_img.png" alt="" />
+<img src="\img\history_context_img.png" alt="" />
 
 
 

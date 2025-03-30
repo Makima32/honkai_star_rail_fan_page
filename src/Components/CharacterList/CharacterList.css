@@ -16,7 +16,7 @@ body {
     font-size: 1.75em;
     font-family: 'HonkaiStyle', sans-serif;
 
-    background-image: url('public/img/galaxy-honkai-star-rail2.png');
+    background-image: url('/img/galaxy-honkai-star-rail2.png');
     background-size: cover;
     background-position: center;
 }

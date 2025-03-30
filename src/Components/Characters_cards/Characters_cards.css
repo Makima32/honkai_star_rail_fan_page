@@ -7,33 +7,32 @@
 
 .Character_cards_title_div {
   width: 100%;
-  margin-bottom: 3%;
+  margin-bottom: 2rem;
   text-align: center;
   color: #E6C200;
-  font-size: 1.6em;
+  font-size: 2rem;
 }
 
 .Character_cards_father_div {
-  padding-top: 5%;
-  height: fit-content;
-  width: 100%;
+  padding: 4rem 1rem;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  padding-bottom: 10%;
-  gap: 5%;
-  background-color: rgba(27, 29, 54, 1);
   justify-content: center;
+  gap: 10rem;
+  background-color: rgba(27, 29, 54, 1);
 }
 
 .Character_card {
   background-color: rgba(27, 29, 54, 0.5);
-  height: 50vh;
   width: 15vw;
+  min-width: 300px;
+  max-width: 450px;
+  height: 55vh;
+  min-height: 350px;
   border-radius: 10px;
   text-align: center;
   perspective: 1000px;
-  border: 20px solid transparent;
+  border: 2px solid transparent;
   transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -65,8 +64,9 @@
 
 .Character_card_front img {
   border-radius: 10px;
-  height: 100%;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .Character_card_back {
@@ -79,35 +79,34 @@
   font-family: 'HonkaiStyle', sans-serif;
   transform: rotateY(180deg);
   border-radius: 10px;
-  font-size: 2em;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .Character_card_back h3 {
-  font-size: 1.4em;
-  margin-bottom: 10px;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .Character_card_back p {
-  font-size: 1em;
-  margin: 5px 0;
+  font-size: 1rem;
+  margin: 0.3rem 0;
 }
 
-@media (max-width: 1023px) and (min-width: 768px) {
-  .Character_cards_father_div {
-    flex-direction: row;
-    gap: 3%;
-  }
-
+/* Tablet */
+@media (max-width: 1023px) {
   .Character_card {
-    width: 30vw;
-    height: 60vh;
+    width: 40vw;
+    height: 50vh;
   }
 
   .Character_card_back {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 }
 
+/* Móvil */
 @media (max-width: 767px) {
   .Character_cards_father_div {
     flex-direction: column;
@@ -116,18 +115,18 @@
 
   .Character_card {
     width: 80vw;
-    height: 85vh;
+    height: 60vh;
   }
 
   .Character_card_back {
-    font-size: 3.3em;
+    font-size: 1.2rem;
   }
 
   .Character_card_back h3 {
-    font-size: 1.2em;
+    font-size: 1.4rem;
   }
 
   .Character_card_back p {
-    font-size: 0.9em;
+    font-size: 1.1rem;
   }
 }

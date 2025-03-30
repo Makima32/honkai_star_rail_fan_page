@@ -20,7 +20,7 @@ function Gameplay_lighcone_artefac() {
         </div>
 
         <div className="gameplay_lighcone_div_img">
-          <img src="public\img\gameplay_ligcone_image2.png" alt="Conos de Luz" />
+          <img src="\img\gameplay_ligcone_image2.png" alt="Conos de Luz" />
         </div>
       </div>
     </>

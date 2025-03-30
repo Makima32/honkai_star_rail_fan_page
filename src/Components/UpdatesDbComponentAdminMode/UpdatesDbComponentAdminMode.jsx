@@ -131,7 +131,7 @@ const UpdatesDbComponentAdminMode = () => {
 
                   <img
                     id="trash-icon"
-                    src="public/img/TrashIcon.svg"
+                    src="/img/TrashIcon.svg"
                     alt="Borrar"
                     onClick={() => handleDelete(update.id)}
                     style={{ cursor: "pointer" }}
@@ -156,7 +156,7 @@ const UpdatesDbComponentAdminMode = () => {
 
         <Link to="/updateFormPage">
           <img
-            src="public/img/AddIcon.svg"
+            src="/img/AddIcon.svg"
             alt="add Icon"
             style={{ cursor: "pointer" }}
           />

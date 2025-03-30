@@ -11,7 +11,7 @@ function Stelle_presentation() {
         <div className="Stelle_presentation_div_father">
         <div className="Stelle_presentation_div_img">
 
-<img src="public\img\stelle_presentation_img.png" alt="Stelle_img" />
+<img src="\img\stelle_presentation_img.png" alt="Stelle_img" />
 </div>
             <div className="Stelle_presentation_div_text">
 

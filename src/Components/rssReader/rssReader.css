@@ -1,0 +1,70 @@
+.rss-characters-container {
+    margin: 4rem auto;
+    padding: 0 2rem;
+    max-width: 1200px;
+  }
+  
+  .rss-characters-title {
+    font-size: 2.5rem;
+    color: #e6c200;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .rss-characters-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .rss-character-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: #1b1d36;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .rss-character-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .rss-character-image {
+    width: 100%;
+    height: 15em;
+    border-bottom: 2px solid #e6c200;
+  }
+  .rss-character-image img{
+
+    height: 100%;
+    width: 100%;
+  }
+  .rss-character-info {
+    padding: 1rem;
+  }
+  
+  .rss-character-info h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.6rem;
+    color: #e6c200;
+  }
+  
+  .rss-character-detail {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f4e04d;
+    margin-bottom: 0.7rem;
+  }
+  
+  .rss-character-lore {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+  }
+  

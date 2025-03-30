@@ -6,7 +6,7 @@ function Gameplay_role_character() {
       <div className="gameplay_role_character_div_father">
         <div className="gameplay_role_character_div_img">
           <img
-            src="public\img\gameplay_vias_image.png"
+            src="\img\gameplay_vias_image.png"
             alt="Gameplay Role"
           />
         </div>

@@ -3,152 +3,97 @@
     src: url('../assets/Fonts/EurostileExtendedBlack.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-
-
-.navegation_menu {
+  }
+  
+  .navegation_menu {
     background-color: #1B1D36;
-
-
     color: white;
-
-    font-weight: bold;
     font-family: 'HonkaiStyle', sans-serif;
-
-
-    height: 100vh;
-    width: 100%;
     background-image: url(../../../public/img/Honkai_Train_GIF.gif);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-
-}
-
-.navegation_menu a {
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .father_navegation_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    flex-wrap: nowrap;
+  }
+  
+  .father_navegation_menu div {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .navegation_menu a {
     color: white;
     text-decoration: none;
-    font-family: 'HonkaiStyle', sans-serif;
-
-}
-
-.navegation_menu div {
-    flex: 1;
-    text-align: center;
-    font-size: 1.5em;
-
-}
-
-.Logo img {
-    position: relative;
-    width: 45%;
-    height: 50%;
-}
-
-.father_navegation_menu {
-
-    position: relative;
-    top: 5%;
-    display: flex;
-
-
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-content: center;
-    align-items: center;
-
-    font-size: 20px;
-
-
-
-
-}
-
-
-
-
-@media (max-width: 1023px) and (min-width: 768px) {
-    .navegation_menu {
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
+    font-size: inherit;
+  }
+  
+  .Logo img {
+    width: 10rem;
+    height: auto;
+  }
+  
+  .hamburger_icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    position: absolute;
+    top: 1.2rem;
+    left: 1.5rem;
+    z-index: 999;
+  }
+  
+  .hamburger_icon span {
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger_icon {
+      display: flex;
     }
+  
+    .navegation_menu { 
 
-
+        height: 5rem;
+}
     .father_navegation_menu {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        font-size: 1em;
-    }
-
-    .navegation_menu a {
-        font-size: 1empx;
-    }
-
-    .Logo img {
-        width: 80%;
-        height: 80%;
-    }
-}
-
-@media (max-width: 767px) {
-    .navegation_menu {
-
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .father_navegation_menu {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
-        font-size: 14px;
-    }
-
-    .navegation_menu a {
-        font-size: 1em;
-        padding: 10px;
-    }
-
-    .Logo img {
-        width: 50%;
-        height: 40%;
-    }
-
-    .Gachapon_menu {
-        width: 100%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        background-color: rgba(192, 192, 192, 0.4);
-
-    }
-
-    .Gameplay_menu {
-        width: 100%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        background-color: rgba(192, 192, 192, 0.4);
-
-    }
-
-    .Character_menu {
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(27, 29, 54, 0.9);
+      height: 100vh;
       width: 100%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        background-color: rgba(192, 192, 192, 0.4);
-
+      transform: translateY(-100%);
+      transition: transform 0.3s ease;
+      z-index: 998;
+      padding-top: 6rem;
+      font-size: 1.3rem;
     }
-
-    .history_menu {
-      width: 100%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        background-color: rgba(192, 192, 192, 0.4);
+  
+    .father_navegation_menu.open {
+      transform: translateY(0);
     }
-}
+  
+    .father_navegation_menu div {
+      margin: 1.5rem 0;
+    }
+  
+    .Logo img {
+      width: 50%;
+    }
+  }
+  

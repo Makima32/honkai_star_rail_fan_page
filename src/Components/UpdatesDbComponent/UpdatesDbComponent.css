@@ -1,264 +1,159 @@
-.updates-dbcomponent-img {
-
-    width: 85%;
-    height: 65%;
-    border-radius: 15px;   
-    
-    border: 2px solid #dfd4d4;
-
-    box-shadow: 0 4px 8px rgb(227, 222, 222);
-
-}
-
-
 .updates-dbcomponent-title {
-
-
-    text-align: center;
-    
-    font-size: 4.5rem;
-
-
-
-}
-
-.updates-dbcomponent-link-div {
-    text-decoration: none;
-
-    display: flex;
-    flex-direction: row;
-
-    cursor: default;
-
-}
-
-.updates-dbcomponent-div {
-
-    display: flex;
-    border: 1px solid #ccc;
-    padding: 8px;
-    margin: 8px;
-    margin-top: 3.5%;
-    margin-bottom: 2%;
-    color: white;
-    background: linear-gradient(to bottom, #0050A3, #5a248c, #1B1D36);
-    text-align: center;
-    text-decoration: none;
-    margin-left: 16%;
-    width: 65vw;
-
-    height: 50vh;
-    font-size: 2rem;
-    border: 2px solid #4a4646;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    border-radius: 25px;
-}
-
-.updates-dbcomponent-div:hover {
-
-    transform: scale(1.025);
-
-}
-
-.updates-dbcomponent-input-text-to-filter-updates {
-
-    height: 5.5rem;
-    width: 50rem;
-
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 2rem;
+  color: #E6C200;
 }
 
 .updates-dbcomponent-div-input-textbox {
-
-
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-.updates-dbcomponent-div-input-textbox button{
+.updates-dbcomponent-input-text-to-filter-updates {
+  height: 3.5rem;
+  width: 30rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  padding: 0 1rem;
+}
 
-    width: 5%;
+.updates-dbcomponent-div-input-textbox button {
+  font-size: 1.4rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #E6C200;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+}
+
+.updates-dbcomponent-div-father {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.updates-dbcomponent-link-div {
+  text-decoration: none;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
 }
 
 
-.updates-dbcomponent-div-name-update {
-
-margin-left: 2rem;
-margin-right: 2rem;
-
-height: fit-content;
-margin-bottom: 1rem;
-margin-top: 4em;
-padding-top: 4rem;
-
-font-size: 1.7rem;
-
+.updates-dbcomponent-div {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to bottom, #0050A3, #5a248c, #1B1D36);
+  border-radius: 20px;
+  border: 2px solid #4a4646;
+  padding: 2rem;
+  width: 80vw;
+  height: 35vh;
+  gap: 2rem;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.updates-dbcomponent-div-update-version {
-
-  
-  margin-bottom: 1.3rem;
-
+.updates-dbcomponent-div:hover {
+  transform: scale(1.015);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
 }
 
 .updates-dbcomponent-div-update-img {
-
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    
-    margin-left: 1.5rem;
-
-    width: 100%;
-    height: auto;
-}
-.updates-dbcomponent-div-update-img img {
-
+  width: 40%;
   display: flex;
-  width: 100%;
+  justify-content: center;
   align-items: center;
 }
 
-.updates-dbcomponent-img{
-
+.updates-dbcomponent-img {
   width: 100%;
-  
+  border-radius: 12px;
+  border: 2px solid #dfd4d4;
+  box-shadow: 0 4px 8px rgb(227, 222, 222);
 }
 
-
-.updates-dbcomponent-div-father{
-
-    display: flex;
-    flex-direction: column-reverse;
-
+.updates-dbcomponent-div-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.updates-dbcomponent-div-short-desciption {
-
-    margin-left: 4rem;
-    margin-right: 4rem;
-    height: fit-content;
-
-    margin-bottom: 3rem;
+.updates-dbcomponent-div-name-update h3,
+.updates-dbcomponent-div-update-version h4 {
+  margin: 0;
+  font-size: 1.6rem;
 }
 
-.updates-dbcomponent-div-date-version {
-
-    font-size: 1.5rem;
-
+.updates-dbcomponent-div-short-desciption p,
+.updates-dbcomponent-div-date-version p {
+  font-size: 1.2rem;
 }
 
-.updates-dbcomponent-input-text-to-filter-updates{
-
-    font-size: 2.5rem;
-}
-
-
-.admin-mode-div{
-
+.admin-mode-div {
   position: sticky;
   top: 0;
-
-
-  text-decoration: none !important;
-
-  margin-left: 1rem;
-  margin-top: 1rem;
-
-
-
+  margin: 1rem;
 }
 
 .admin-mode-button a {
-
-  text-decoration: none !important;
-
+  padding: 0.5rem 1.5rem;
+  background-color: #E6C200;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  border-radius: 10px;
 }
 
+/* Tablet */
+@media (max-width: 1023px) {
+  .updates-dbcomponent-div {
+    flex-direction: column;
+    align-items: center;
+  }
 
-@media (max-width: 1023px) and (min-width: 768px) {
-    .updates-dbcomponent-title {
-      font-size: 3.2rem;
-    }
-  
-    .updates-dbcomponent-div {
-      width: 85vw;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 1.7rem;
-    }
-  
-    .updates-dbcomponent-img {
-      width: 90%;
-      height: auto;
-    }
-  
-    .updates-dbcomponent-input-text-to-filter-updates {
-      width: 35rem;
-      height: 4rem;
-    }
-  
-    .updates-dbcomponent-div-short-desciption {
-      margin-left: 2rem;
-      margin-right: 2rem;
-      font-size: 1.5rem;
-    }
-  
-    .updates-dbcomponent-div-date-version {
-      font-size: 1.5rem;
-    }
-  
-    .updates-dbcomponent-div-name-update {
-      font-size: 2.2rem;
-    }
+  .updates-dbcomponent-div-update-img,
+  .updates-dbcomponent-div-info {
+    width: 100%;
   }
-  
-  @media (max-width: 767px) {
-    .updates-dbcomponent-title {
-      font-size: 2.5rem;
-    }
-  
-    .updates-dbcomponent-div {
-      flex-direction: column;
-      width: 90vw;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 1.3rem;
-      padding: 6px;
-    }
-  
-    .updates-dbcomponent-img {
-      width: 70%;
-      margin-right:5%;
-      margin-top: 5%;
-      height: auto;
-    }
-  
-    .updates-dbcomponent-input-text-to-filter-updates {
-      width: 90%;
-      height: 3.5rem;
-    }
-  
-    .updates-dbcomponent-div-short-desciption {
-      margin: 1rem;
-      font-size: 1.2rem;
-    }
-  
-    .updates-dbcomponent-div-date-version {
-      font-size: 1.2rem;
-    }
-  
-    .updates-dbcomponent-div-name-update {
-      font-size: 1.7rem;
-    }
-  
-    .updates-dbcomponent-div-input-textbox {
-      flex-direction: column;
-      gap: 10px;
-      align-items: center;
-    }
+
+  .updates-dbcomponent-div-info {
+    align-items: center;
+    text-align: center;
   }
-  
+
+  .updates-dbcomponent-input-text-to-filter-updates {
+    width: 90%;
+  }
+}
+
+/* Móvil */
+@media (max-width: 767px) {
+  .updates-dbcomponent-title {
+    font-size: 2.5rem;
+  }
+
+  .updates-dbcomponent-div-name-update h3,
+  .updates-dbcomponent-div-update-version h4 {
+    font-size: 1.4rem;
+  }
+
+  .updates-dbcomponent-div-short-desciption p,
+  .updates-dbcomponent-div-date-version p {
+    font-size: 1.1rem;
+  }
+
+  .updates-dbcomponent-div {
+    padding: 1.5rem;
+  }
+}

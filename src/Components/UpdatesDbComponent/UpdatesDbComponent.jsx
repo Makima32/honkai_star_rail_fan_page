@@ -114,7 +114,7 @@ const UpdatesDbComponent = () => {
       </div>
 
 
-
+        
     </>
   );
 };

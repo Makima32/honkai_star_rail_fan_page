@@ -19,11 +19,11 @@ function Footer() {
 
               
               <div className="footer_social_media">
-                <a href="https://www.instagram.com/honkaistarrail/?hl=es"><img src="public\img\social_media_icons\instagram.svg" alt="Instagram" /></a>
-                <a href=""><img src="public/img/social_media_icons/x-social-media-white-icon.svg" alt="Twiter/X" /></a>
-                <a href="https://www.youtube.com/@HonkaiStarRail/videos"><img src="public\img\social_media_icons\youtube-svgrepo-com.svg" alt="Youtube" /></a>
-                <a href="src\services\Rss\newcharacters.xml" target="_blank">
-                <img src="public\img\rss.png" alt="Updates" />
+                <a href="https://www.instagram.com/honkaistarrail/?hl=es"><img src="\img\social_media_icons\instagram.svg" alt="Instagram" /></a>
+                <a href=""><img src="/img/social_media_icons/x-social-media-white-icon.svg" alt="Twiter/X" /></a>
+                <a href="https://www.youtube.com/@HonkaiStarRail/videos"><img src="\img\social_media_icons\youtube-svgrepo-com.svg" alt="Youtube" /></a>
+                <a href="\Rss\newcharacters.xml" target="_blank">
+                <img src="\img\rss.png" alt="Updates" />
                 </a>
 
               </div>

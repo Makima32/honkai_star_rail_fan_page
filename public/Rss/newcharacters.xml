@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Honkai Star Rail - Nuevos Personajes</title>
+  <link>https://honkaiupdates-36385.web.app/</link>
+  <description>Información oficial sobre los nuevos personajes añadidos a Honkai: Star Rail</description>
+
+  <item>
+    <title>Acheron</title>
+    <description>
+      Elemento: Rayo ⚡ | Ruta: Nihilidad 🌫️ |
+      Acheron es una viajera solitaria apodada Galaxy Ranger. Porta una espada que nunca desenvaina completamente. Su conexión con la Emanadora IX la hace aún más misteriosa.
+    </description>
+    <link>https://honkaiupdates-36385.web.app/#archeron</link>
+    <enclosure url="https://assetsio.gnwcdn.com/Honkai-Star-Rail-Acheron-materials%2C-kit%2C-and-Eidolons-cover.jpg?width=1200&amp;height=900&amp;fit=crop&amp;quality=100&amp;format=png&amp;enable=upscale&amp;auto=webp" type="image/png" />
+  </item>
+
+  <item>
+    <title>Sparkle</title>
+    <description>
+      Elemento: Cuántico 🌀 | Ruta: Armonía 🎵 |
+      Sparkle es una actriz excéntrica de los Masked Fools. Especialista en apoyar a su equipo con potenciadores estratégicos y manipulación energética.
+    </description>
+    <link>https://honkaiupdates-36385.web.app/#sparkle</link>
+    <enclosure url="https://assetsio.gnwcdn.com/Honkai-Star-Rail-Sparkle-materials%2C-kit%2C-and-Eidolons-cover.jpg?width=1200&amp;height=900&amp;fit=crop&amp;quality=100&amp;format=png&amp;enable=upscale&amp;auto=webp" type="image/png" />
+  </item>
+
+  <item>
+    <title>Boothill</title>
+    <description>
+      Elemento: Físico ⚔️ | Ruta: Cacería 🎯 |
+      Boothill es un vaquero mecánico, conocido como el Jinete de Cobre. Se especializa en duelos uno contra uno y elimina enemigos con rapidez.
+    </description>
+    <link>https://honkaiupdates-36385.web.app/#boothill</link>
+    <enclosure url="https://assetsio.gnwcdn.com/honkai-star-rail-boothill-materials.jpg?width=1600&amp;height=900&amp;fit=crop&amp;quality=100&amp;format=png&amp;enable=upscale&amp;auto=webp" type="image/png" />
+  </item>
+
+  </channel>
+</rss>

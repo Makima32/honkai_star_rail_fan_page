@@ -12,19 +12,19 @@ function CharacterList() {
         <div className="div_father_character_list">
             <div className="characters_Wheel">
                 <img 
-                    src="public/img/archeron_icon3.png" 
+                    src="/img/archeron_icon3.png" 
                     alt="Castorice" 
                     className="character_button"
                     onClick={() => setSelectedCharacter(characters[0])} 
                 />
                 <img 
-                    src="public/img/agalea_icon3.png" 
+                    src="/img/agalea_icon3.png" 
                     alt="Agalea" 
                     className="character_button"
                     onClick={() => setSelectedCharacter(characters[1])} 
                 />
                 <img 
-                    src="public/img/kafka_icon.png" 
+                    src="/img/kafka_icon.png" 
                     alt="Sunday" 
                     className="character_button"
                     onClick={() => setSelectedCharacter(characters[2])} 

@@ -1,4 +1,6 @@
+import Footer from "../../Components/Footer/Footer"
 import Header_standar from "../../Components/Header_standar/Header_standar"
+import RssReader from "../../Components/rssReader/rssReader"
 import UpdatesDbComponent from "../../Components/UpdatesDbComponent/Updatesdbcomponent"
 
 function UpdatesDbComponent_Page() {
@@ -10,6 +12,8 @@ function UpdatesDbComponent_Page() {
 
             <Header_standar/>
           <UpdatesDbComponent/>
+            <RssReader/>
+            <Footer/>
             
         </>
     ]
