@@ -51,6 +51,8 @@ These resources helped in building this project:
 
 ![Homepage Preview](https://www.dropbox.com/scl/fi/8e7jjpbqk5usobzohh7k3/Screenshot_1.png?rlkey=pbhixm0y6ncwui4rmdeu0b9ow&st=u06qm19a&raw=1)
 
+##rss viewer screenshot
+![Homepage Preview](https://www.dropbox.com/scl/fi/axpmmpzw6kog0ec0dbq4s/imagenrssviewer.jpg.png?rlkey=vxla8cesvdb6ra3sxqaisejei&st=zyyd2m2g&raw=1)
 
 ---
 
