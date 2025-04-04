@@ -64,11 +64,16 @@ The app is hosted on Firebase:
 🔗 **[Live Project on Firebase Hosting](https://honkaiupdates-36385.web.app/)**
 
 ---
-
 ## 👤 Author
+<p align="center">
+  <a href="https://github.com/Makima32">
+    <img src="https://avatars.githubusercontent.com/u/160870787?v=4" width="120" height="120" alt="Makima32 GitHub Avatar"><br />
+    <b>Makima32</b>
+  </a>
+</p>
 
-[![Makima32](https://avatars.githubusercontent.com/u/144605846?v=4?s=100)](https://github.com/Makima32)  
-**[@Makima32](https://github.com/Makima32)**
+
+
 
 
 
