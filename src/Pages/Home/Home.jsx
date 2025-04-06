@@ -13,8 +13,8 @@ function Home_Page() {
 
         <>
 
-            
-            <Header_home/> 
+
+            <Header_home />
             <Honkai_description />
             <hr></hr>
             <Cards />
@@ -22,17 +22,19 @@ function Home_Page() {
             <Honkai_trailer />
             <hr></hr>
             <CharacterList></CharacterList>
-           
-            <Slider_images 
-            img1="\img\slider_image1.webp"
-            img2="\img\slider_image2.png"
-            img3="\img\slider_image3.png"
-            
-/>
-        
+
+            <Slider_images
+
+                img1="\img\slider_image1.jpg"
+                img2="\img\slider_image2.jpg"
+                img3="\img\slider_image3.jpg"
+                img4="\img\slider_image4.jpg"
+
+            />
+
             <Footer></Footer>
 
-            
+
         </>
     ]
 

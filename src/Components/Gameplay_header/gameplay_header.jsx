@@ -25,7 +25,7 @@ function Gameplay_Header() {
           </div>
           <div className="logo_gameplay">
             <Link to="/" onClick={() => setMenuOpen(false)}>
-              <img src="public/img/logo_original_honkai.png" alt="Logo" />
+              <img src="img/logo_original_honkai.png" alt="Logo" />
             </Link>
           </div>
           <div className="menu3_gameplay">

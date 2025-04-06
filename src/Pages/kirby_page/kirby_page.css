@@ -1,0 +1,78 @@
+.kirby_page_div_father {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1d36;
+  }
+  
+.kirby_page_div_father h2{
+
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+  .kirby_page_div_img {
+    text-align: center;
+  }
+  
+  .kirby_page_div_img img {
+ 
+    width: 50vw;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  #h2-mobile{
+    display: none;
+  }
+  @media (max-width: 1023px) and (min-width: 768px) {
+    .kirby_page_div_img img {
+      min-width: 60vw;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    
+
+    .kirby_page_div_father{
+
+    }
+    .kirby_page_div_father h2{
+
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .kirby_page_div_img {
+    
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        text-align: center  ;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .kirby_page_div_img img {
+      width: 90%;
+    height: 70%;
+    }
+
+
+ #h2-desktop{
+ 
+    display: none;
+}   
+ #h2-mobile{
+
+    width: 90%;
+    padding-top: 4rem;
+  display: flex;
+ }
+}
+  

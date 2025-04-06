@@ -12,6 +12,7 @@ import Privacy_page from "./Pages/Privacy_page/Privacy_page";
 import UpdatesDbComponentAdminMode from "./Components/UpdatesDbComponentAdminMode/UpdatesDbComponentAdminMode";
 import UpdateFormPage from "./Pages/Update_form_page/UpdateFormPage";
 import UpdateForm from "./Components/Update_form/UpdateForm";
+import KirbyPage from "./Pages/kirby_page/kirby_page";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
      
     <Router>
       <Routes>
-        <Route path="/*" element={<Home_Page/>} />
+     
         <Route path="/home" element={<Home_Page/>} />
         <Route path="/gameplay" element={<Gameplay />} />
         <Route path="/gachapon" element={<GachaponPage/>} />
@@ -38,8 +39,9 @@ function App() {
 
         <Route path="/terms" element={<Terms_page />} />
         <Route path="/privacy" element={<Privacy_page />} />
+        <Route path="/kirby" element={<KirbyPage />} />
 
-
+        <Route path="/*" element={<Home_Page/>} />
 
 
       </Routes>

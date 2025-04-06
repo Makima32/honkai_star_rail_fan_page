@@ -38,7 +38,7 @@ function RssReader() {
           const loreLine = descriptionParts.slice(2).join(" ");
 
           return (
-            <a key={index} href={item.link} className="rss-character-card" target="_blank" rel="noreferrer">
+            <a key={index} href={item.link} className="rss-character-card" target="_blank" rel="noreferrer" id={`item-rss-${index}`}>
               <img src={item.image} alt={item.title} className="rss-character-image" />
               <div className="rss-character-info">
                 <h3>{item.title}</h3>

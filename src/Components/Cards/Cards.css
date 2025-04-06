@@ -58,11 +58,12 @@
 @media (max-width: 1023px) and (min-width: 768px) {
   .container-cards {
     flex-direction: column;
+    text-align: center;
     align-items: center;
   }
 
   .card {
-    width: 80vw ;  
+    width: 90vw ;  
     height: fit-content; 
   }
 
@@ -85,7 +86,7 @@
   .card-text {
     width: 80%;
     font-size: 2.3em;
-    text-align: justify;
+    text-align: center;
     line-height: 1.6;
   }
 }
@@ -104,6 +105,7 @@
     height: fit-content;
     padding: 20px;
 
+    
   }
 
   .card:hover{
@@ -116,10 +118,10 @@
   }
 
   .card-text {
-    width: 90%;
-    font-size: 2.15em;
+    width: 95%;
+    font-size: 1.45em;
     text-align: center;
-    line-height: 1.6;
+    line-height: 1;
   }
   .card img {
   

@@ -41,7 +41,7 @@ const UpdatesDbComponent = () => {
   return (
     <>
 
-<div className="admin-mode-div"> <button className="admin-mode-button"> <Link to="/updatesAdmin" >Modo admin</Link> </button></div>
+      <div className="admin-mode-div"> <button className="admin-mode-button"> <Link to="/updatesAdmin" >Modo admin</Link> </button></div>
 
       <h2 className="updates-dbcomponent-title">Últimas Actualizaciones</h2>
 
@@ -61,7 +61,7 @@ const UpdatesDbComponent = () => {
 
 
         {filteredUpdates.length > 0 ? (
-          filteredUpdates.map((update) => {
+          filteredUpdates.map((update, index) => {
             let descripcionCorta = update.Descripcion;
 
             if (update.Descripcion.length > 200) {
@@ -72,11 +72,10 @@ const UpdatesDbComponent = () => {
 
 
               <Link to={`/version/${update.Version}`} className="updates-dbcomponent-link-div" key={update.id}>
-                <div className="updates-dbcomponent-div">
+                <div className="updates-dbcomponent-div" id={`item-${index}`}>
 
 
-                  <div className="updates-dbcomponent-div-update-img"
-                  > <img
+                  <div className="updates-dbcomponent-div-update-img"> <img
                       className="updates-dbcomponent-img"
                       src={update.image_url}
                       alt={update.NombreUpdate}
@@ -84,7 +83,7 @@ const UpdatesDbComponent = () => {
 
                   <div className="updates-dbcomponent-div-info">
                     <div className="updates-dbcomponent-div-name-update">
-                      
+
                       <h3>{update.NombreUpdate}</h3>
 
                     </div>
@@ -114,7 +113,7 @@ const UpdatesDbComponent = () => {
       </div>
 
 
-        
+
     </>
   );
 };

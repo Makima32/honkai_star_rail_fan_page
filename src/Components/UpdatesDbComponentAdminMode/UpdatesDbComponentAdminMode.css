@@ -58,11 +58,14 @@
 .add-new-updates-div {
   margin-top: 3rem;
   text-align: center;
+
+ padding-bottom: 2rem;
 }
 
 .add-new-updates-div h2 {
   color: #E6C200;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .add-new-updates-div img {
@@ -104,8 +107,9 @@
 
   .updates-dbcomponent-div-crud img{
   
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
   
   }
 
