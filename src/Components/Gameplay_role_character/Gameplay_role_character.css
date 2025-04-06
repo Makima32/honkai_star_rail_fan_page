@@ -1,111 +1,119 @@
 .gameplay_role_character_div_father {
-    width: 95vw;
-    height: 75vh;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: rgba(27, 29, 54, 1);
-    margin: 0 auto;
-    padding: 2rem 1rem;
-  }
-  
-  .gameplay_role_character_div_information {
-    width: 50%;
-    display: flex;
+  width: 95vw;
+  height: 75vh;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(27, 29, 54, 1);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.gameplay_role_character_div_information {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gameplay_role_character_div_information_title {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #e6c200;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.gameplay_role_character_div_information_text {
+  color: white;
+  text-align: justify;
+  font-size: 2rem;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.gameplay_role_character_div_img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.gameplay_role_character_div_img img {
+  width: 90%;
+  height: auto;
+  border-radius: 25px;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .gameplay_role_character_div_father {
     flex-direction: column;
-    justify-content: center;
+    padding: 2rem 1rem;
+    height: fit-content;
   }
-  
+
+  .gameplay_role_character_div_information {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
   .gameplay_role_character_div_information_title {
-    font-size: 2.4rem;
-    text-align: center;
-    color: #e6c200;
-    margin-bottom: 1rem;
-  }
-  
-  .gameplay_role_character_div_information_text {
-    color: white;
-    text-align: justify;
     font-size: 2rem;
-    margin: 0 auto;
+  }
+
+  .gameplay_role_character_div_information_text {
+    font-size: 1.8rem;
+    width: 90%;
+  }
+
+  .gameplay_role_character_div_img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .gameplay_role_character_div_img img {
     width: 85%;
   }
-  
-  .gameplay_role_character_div_img {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .gameplay_role_character_div_img img {
-    width: 90%;
+}
+
+@media (max-width: 767px) {
+  .gameplay_role_character_div_father {
+    flex-direction: column;
     height: auto;
-    border-radius: 25px;
+    width: 90vw;
+    padding: 1.5rem 1rem;
   }
-  
-  /* Tablet */
-  @media (max-width: 1023px) and (min-width: 768px) {
-    .gameplay_role_character_div_father {
-      flex-direction: row;
-      flex-wrap: wrap;
-      padding: 1.5rem;
-      height: auto;
-    }
-  
-    .gameplay_role_character_div_information {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .gameplay_role_character_div_information_title {
-      font-size: 2rem;
-    }
-  
-    .gameplay_role_character_div_information_text {
-      font-size: 1.8rem;
-    }
-  
-    .gameplay_role_character_div_img {
-      width: 100%;
-      margin-top: 1.5rem;
-    }
-  
-    .gameplay_role_character_div_img img {
-      width: 85%;
-    }
+
+  .gameplay_role_character_div_information {
+    width: 100%;
+    margin-bottom: 1.5rem;
   }
-  
-  /* Móvil */
-  @media (max-width: 767px) {
-    .gameplay_role_character_div_father {
-      flex-direction: column;
-      width: 90vw;
-      padding: 1.5rem 1rem;
-      height: auto;
-    }
-  
-    .gameplay_role_character_div_information {
-      width: 100%;
-      margin-bottom: 2rem;
-    }
-  
-    .gameplay_role_character_div_information_title {
-      font-size: 1.8rem;
-    }
-  
-    .gameplay_role_character_div_information_text {
-      font-size: 1.6rem;
-      width: 90%;
-    }
-  
-    .gameplay_role_character_div_img {
-      width: 100%;
-    }
-  
-    .gameplay_role_character_div_img img {
-      width: 80%;
-    }
+
+  .gameplay_role_character_div_information_title {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 85%;
+    margin: 0 auto;
   }
-  
+
+  .gameplay_role_character_div_information_text {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    text-align: center;
+    width: 95%;
+  }
+
+  .gameplay_role_character_div_img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .gameplay_role_character_div_img img {
+    width: 80%;
+  }
+}

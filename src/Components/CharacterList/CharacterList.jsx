@@ -13,7 +13,7 @@ function CharacterList() {
             <div className="characters_Wheel">
                 <img 
                     src="/img/archeron_icon3.png" 
-                    alt="Castorice" 
+                    alt="Archeron" 
                     className="character_button"
                     onClick={() => setSelectedCharacter(characters[0])} 
                 />
@@ -24,8 +24,8 @@ function CharacterList() {
                     onClick={() => setSelectedCharacter(characters[1])} 
                 />
                 <img 
-                    src="/img/kafka_icon.png" 
-                    alt="Sunday" 
+                    src="\img\castorice_icon-png.png" 
+                    alt="Castorice" 
                     className="character_button"
                     onClick={() => setSelectedCharacter(characters[2])} 
                 />

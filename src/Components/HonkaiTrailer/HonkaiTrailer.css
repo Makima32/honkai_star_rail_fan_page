@@ -38,9 +38,16 @@
     text-align: center;
     position: relative;
     padding: 15px;
+    width: fit-content;
     background: #282749;
     border-radius: 15px;
     box-shadow: 0 0 15px #C0C0C0;
+}
+
+.video-container iframe{
+
+    width: 35vw;
+    height: 40vh;
 }
 
 @media (max-width: 1023px) and (min-width: 768px) {
@@ -70,7 +77,7 @@
     }
         .trailer-text h2 {
 
-            font-size: 4.5em;
+            font-size: 2rem;
         }
 
         #trailer_text_p {
@@ -89,10 +96,18 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
     }
 
     .trailer-text {
-        max-width: 95%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .video-container {
+
+        width: fit-content;
     }
 
     .video-container iframe {
@@ -101,21 +116,18 @@
     }
     .trailer-text h2 {
 
-        font-size: 4.5rem;
+        font-size: 2.5rem;
     }
 
     .div_button{
 
         visibility: hidden;
     }
-            .trailer-text h2 {
-
-                font-size: 4.5em;
-            }
+          
             #trailer_text_p {
 
                 padding-top: 5%;
-                font-size: 2.8em;
+                font-size: 1.6rem;
             }    
 }
 

@@ -7,17 +7,14 @@ import "./UpdatesDbComponentAdminMode.css";
 import Header_standar from "../Header_standar/Header_standar";
 
 const handleDelete = async (id) => {
-  const confirmDelete = window.confirm("¿Estás seguro de que quieres eliminar esta actualización?");
-  if (confirmDelete) {
-    try {
-      await deleteDoc(doc(db, "Updates", id));
-      setUpdates((prev) => prev.filter((update) => update.id !== id));
-      setFilteredUpdates((prev) => prev.filter((update) => update.id !== id));
-    } catch (error) {
-      console.error("❌ Error al eliminar la actualización:", error);
-    }
+  try {
+    await deleteDoc(doc(db, "Updates", id));
+    window.location.reload(); 
+  } catch (error) {
+    console.error("❌ Error al eliminar la actualización:", error);
   }
 };
+
 const UpdatesDbComponentAdminMode = () => {
   const [updates, setUpdates] = useState([]);
   const [searchVersion, setSearchVersion] = useState("");
@@ -122,7 +119,7 @@ const UpdatesDbComponentAdminMode = () => {
                   <Link to={`/updateFormPage/${update.id}`}>
                     <img
                       id="modify-icon"
-                      src="public/img/ModifyIcon.svg"
+                      src="/img/ModifyIcon.svg"
                       alt="Modificar"
                       style={{ cursor: "pointer" }}
                     />

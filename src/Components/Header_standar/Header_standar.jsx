@@ -24,7 +24,7 @@ function Header_standar() {
           </div>
           <div className="header-standar-logo">
             <Link to="/" onClick={() => setMenuOpen(false)}>
-              <img src="public/img/logo_original_honkai.png" alt="Logo" />
+              <img src="img/logo_original_honkai.png" alt="Logo" />
             </Link>
           </div>
           <div className="header-standar-character">
