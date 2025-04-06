@@ -113,11 +113,11 @@
   
   }
 
-  .updates-dbcomponent-div-update-img{
+  .updates-dbcomponent-div-update-img img{
 
-    visibility: hidden;
-    height: 0px;
-    width: 0px;
+    width: 80%;
+    height: auto;
+    
   }
   .updates-dbcomponent-div-update-img,
   .updates-dbcomponent-div-info {

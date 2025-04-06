@@ -53,7 +53,7 @@ const VersionDetail = () => {
         {versionData.Fecha_salida}
       </p></div>
     
-    <div>
+    <div className="version-detail-div-button">
     <Link to="/updates" className="version-detail-back-button">
     <h3>
         Volver

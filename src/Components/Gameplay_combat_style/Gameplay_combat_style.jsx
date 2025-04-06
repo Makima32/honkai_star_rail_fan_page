@@ -29,7 +29,7 @@ Planifica bien: gestiona los Puntos de Habilidad y usa buffs y debuffs para maxi
 
         <div className="gameplay_combat_style_div_img">
 
-        <img src="https://www.dropbox.com/scl/fi/ehdpmx0tlx0z8uv5mwobr/castorice_gameplay_compressed.gif?rlkey=4y437cvws0azawwezlzonskxz&st=0awrwvha&raw=1" alt="Castorice GIF"/>
+        <img src="https://www.dropbox.com/scl/fi/ehdpmx0tlx0z8uv5mwobr/castorice_gameplay_compressed.gif?rlkey=4y437cvws0azawwezlzonskxz&st=crveqlew&raw=1" alt="Castorice GIF"/>
         </div>
       </div>
 

@@ -119,7 +119,7 @@ const UpdatesDbComponentAdminMode = () => {
                   <Link to={`/updateFormPage/${update.id}`}>
                     <img
                       id="modify-icon"
-                      src="public/img/ModifyIcon.svg"
+                      src="/img/ModifyIcon.svg"
                       alt="Modificar"
                       style={{ cursor: "pointer" }}
                     />
