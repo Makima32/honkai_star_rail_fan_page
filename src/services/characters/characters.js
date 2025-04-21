@@ -38,7 +38,7 @@ const characters = [
 
     
     icon: "/img/castorice_icon.png",
-    image_card: "/img/castorice_card.png",
+    image_card: "/img/kafka_cards_honkai.png",
     role: "DPS",
     element: "Cuántico"
   }

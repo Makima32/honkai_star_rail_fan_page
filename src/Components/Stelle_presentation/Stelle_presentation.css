@@ -24,7 +24,9 @@
     max-width: 350px;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 0 12px rgba(230, 194, 0, 0.4);
+    /* box-shadow: 0 0 12px rgba(230, 194, 0, 0.4); */
+    filter: drop-shadow(5px 5px 5px #000);
+  
   }
   
   .Stelle_presentation_div_text {
@@ -81,6 +83,7 @@
     .Stelle_presentation_div_img,
     .Stelle_presentation_div_text {
       width: 100%;
+      text-align: center;
     }
   
     .Stelle_presentation_div_img img {
@@ -91,7 +94,10 @@
       font-size: 1.2rem;
       padding: 1rem;
     }
+    .Stelle_presentation_div_text p {
   
+      font-size: 1.5rem;
+    }
     .Stelle_presentation_div_text h2 {
       font-size: 1.8rem;
     }
